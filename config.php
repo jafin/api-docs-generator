@@ -4,7 +4,7 @@ declare(strict_types=1);
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
-$version     = getenv('API_VERSION');
+$version     = '1.4.0';
 $destination = getenv('API_DESTINATION');
 
 define('ROOT', getenv('API_ROOT'));
